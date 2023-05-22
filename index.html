@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="container" >
+        <div class="calc">
+        
+        <input type="text" class="subinput" id="equation"  readonly  > <br> <br> 
+        <input type="text" class="input" id="input"> <br> <br>  
+        <input type="button" value="C" onclick="clearAll()" class="btn btn-op">
+        <input type="button" value="Del" onclick="removeLastVal()" class="btn btn-op">
+        <input type="button" value="%" onclick="getValue('%')" class="btn btn-op">
+        <input type="button" value="H" onclick="clearAll()" class="btn btn-info"><br><br>
+        <input type="button" value="7" onclick="getVal('7')" class="btn btn-num">
+        <input type="button" value="8" onclick="getVal('8')" class="btn btn-num">
+        <input type="button" value="9" onclick="getVal('9')" class="btn btn-num">
+        <input type="button" value="+" onclick="getVal('+')" class="btn btn-op"><br><br>
+        <input type="button" value="4" onclick="getVal('4')" class="btn btn-num">
+        <input type="button" value="5" onclick="getVal('5')" class="btn btn-num">
+        <input type="button" value="6" onclick="getVal('6')" class="btn btn-num">
+        <input type="button" value="-" onclick="getVal('-')" class="btn btn-op"><br><br>
+        <input type="button" value="1" onclick="getVal('1')" class="btn btn-num">
+        <input type="button" value="2" onclick="getVal('2')" class="btn btn-num">
+        <input type="button" value="3" onclick="getVal('3')" class="btn btn-num">
+        <input type="button" value="X" onclick="getVal('*')" class="btn btn-op"><br><br>
+        <input type="button" value="0" onclick="getVal('0')" class="btn btn-num">
+        <input type="button" value="." onclick="getVal('.')" class="btn btn-num">
+        <input type="button" value="=" onclick="solve()" class="btn btn-num">
+        <input type="button" value="/" onclick="getVal('/')" class="btn btn-op"><br><br>
+
+    </div>
+    <div  class="history">
+        <h3>History</h3>
+        <div id="history" >
+            <div class="his">
+
+            </div>
+        </div>
+    </div>
+    
+    <script src="calculator.js"></script>
+</body>
+</html>

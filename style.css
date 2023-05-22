@@ -1,0 +1,129 @@
+.container
+{
+    border: 2px solid black;
+    height:450px;
+    width:250px;
+    background-color: brown;
+    margin:center;
+   
+}
+
+.calbox
+{
+    border: 2px solid black;
+    display:flex;
+    flex-wrap: nowrap;
+    justify-content:center ;
+    align-items: center;
+}
+
+
+.screen
+{  
+
+    border: 2px solid black;
+    height: 500px;
+    width: 400px;
+    margin:center;
+    
+}
+
+
+
+
+
+.btnclear
+{
+    color:white;
+    background-color: aqua;
+
+}    
+
+.btn
+{
+
+    height:50px;
+    width:50px;
+    text-align:center;
+    margin-left:7px;
+    font-size: large;
+
+}
+
+.btn-num
+{
+    color:black;
+    background-color:aqua; 
+
+}
+
+.btn-op
+{
+    color:white;
+    background-color: black;
+
+}
+
+.btn-info
+{
+    color:white;
+    background-color:red;
+}
+
+
+
+.input
+{
+height:40px;
+width:225px;
+margin-left:8px;
+margin-top:-110px;
+text-align: right;
+font-size:30px;
+border-top: none;
+}
+.input:focus
+{
+outline: none;
+}
+.subinput:focus
+{
+outline: none;
+}
+.subinput{
+
+height:20px;
+width:225px;
+margin-left:8px;
+margin-top:5px;
+text-align: right;
+font-size:18px;
+border-bottom: none;
+}
+
+.input:focus
+{
+outline: none;
+}
+.subinput:focus
+{
+outline: none;
+}
+
+.history
+{
+background-color: black;
+height:454px ;
+width:250px;
+color:azure;
+text-align: center;
+margin-left:252px ;
+margin-top:-453px;
+}
+
+.his{
+border: 2px solid white;
+}
+#history{
+text-align: right;
+}
